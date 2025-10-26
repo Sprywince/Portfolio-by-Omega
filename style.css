@@ -1,0 +1,86 @@
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  background-color: #7949a8;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+header {
+  background-color: white;
+  color: #7949a8;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+/* Navigation links */
+nav a {
+  color: #7949a8;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;        
+  max-width: 600px;   
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/* Section titles */
+section h2 {
+  color: #7949a8;
+  margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+/* Links */
+a {
+  color: #7949a8;
+}
+
+a:hover {
+  color: #c08ac0;
+}
+
+/* Resume download button */
+.download-button {
+  background-color: #7949a8;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.download-button:hover {
+  background-color: #933d93;
+}
+
+/* Footer */
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  color: #640f7e;
+}
