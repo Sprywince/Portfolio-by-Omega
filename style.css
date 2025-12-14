@@ -1,86 +1,99 @@
-
+/* Reset and base styles */
 body {
-  font-family: 'Merriweather', sans-serif;
-  background-color: #7949a8;
-  color: black;
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #70b59f76;
+  color: #333;
 }
 
-/* Header section */
-header {
-  background-color: white;
-  color: #7949a8;
-  text-align: center;
+.container {
+  max-width: 900px;
+  margin: 40px auto;
   padding: 20px;
-}
-
-header h1 {
-  font-size: 2em;
-}
-
-/* Navigation links */
-nav a {
-  color: #7949a8;
-  text-decoration: none;
-  margin: 10px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Section */
-section {
-  background-color: white;
-  padding: 20px;
-  margin: 30px auto;
-  width: 80%;        
-  max-width: 600px;   
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
   border-radius: 8px;
-  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
-/* Section titles */
-section h2 {
-  color: #7949a8;
+/* Header styling */
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
   margin-bottom: 10px;
 }
 
-/* Lists */
-ul {
-  padding-left: 20px;
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 
-/* Links */
-a {
-  color: #7949a8;
-}
-
-a:hover {
-  color: #c08ac0;
-}
-
-/* Resume download button */
-.download-button {
-  background-color: #7949a8;
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
+.intro {
+  font-size: 1.1em;
+  line-height: 1.6;
   margin-top: 10px;
 }
 
+/* Section styling */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: #444;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Links and buttons */
+a {
+  color: #0033ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0033ff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .download-button:hover {
-  background-color: #933d93;
+  background-color: #0033ff;
 }
 
 /* Footer */
 footer {
-  background-color: white;
   text-align: center;
-  padding: 15px;
-  color: #640f7e;
+  font-size: 0.9em;
+  color: #777;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
 }
+
